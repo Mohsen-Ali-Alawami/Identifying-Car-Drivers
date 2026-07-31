@@ -1,10 +1,5 @@
 # Identifying-Car-Drivers
 # 🚗 The Car is Safe: A Fast and Accurate Pressure-based Authentication System for Identifying Car Drivers
-
-Official implementation of the MobiSec 2023 conference paper:
-
-> **The Car is Safe: A Fast and Accurate Pressure-based Authentication System for Identifying Car Drivers** :contentReference[oaicite:0]{index=0}
-
 ---
 
 ## 📄 Paper
@@ -18,7 +13,7 @@ Official implementation of the MobiSec 2023 conference paper:
 - Yewon Park
 - Yoonseo Ku
 - Gyeonghwan Choi
-- Ki-Woong Park :contentReference[oaicite:1]{index=1}
+- Ki-Woong Park 
 
 📑 Paper PDF:
 https://www.researchgate.net/publication/376781776
@@ -29,7 +24,7 @@ https://www.researchgate.net/publication/376781776
 
 Driver authentication is an important security mechanism for preventing unauthorized vehicle access. Existing approaches commonly rely on CAN bus signals, GPS information, cameras, or smartphones, which may suffer from cybersecurity risks, privacy concerns, or long authentication delays.
 
-This work proposes a lightweight and privacy-preserving driver authentication system using only pressure sensors installed on the driver's seat and seat belt. Pressure measurements are processed using machine learning models to identify authorized drivers within only a few seconds while maintaining high authentication accuracy. :contentReference[oaicite:2]{index=2}
+This work proposes a lightweight and privacy-preserving driver authentication system using only pressure sensors installed on the driver's seat and seat belt. Pressure measurements are processed using machine learning models to identify authorized drivers within only a few seconds while maintaining high authentication accuracy. 
 
 ---
 
@@ -40,7 +35,7 @@ This work proposes a lightweight and privacy-preserving driver authentication sy
 - ⚡ Authentication within a few seconds
 - 🤖 Machine learning-based identification
 - 📊 Real-world dataset collected from 12 participants
-- 📈 High authentication accuracy (up to **99.61%**) :contentReference[oaicite:3]{index=3}
+- 📈 High authentication accuracy (up to **99.61%**) 
 
 ---
 
@@ -65,7 +60,7 @@ The proposed framework consists of four stages:
 1. Pressure data collection
 2. Data preprocessing
 3. Machine learning model training
-4. Online driver authentication :contentReference[oaicite:5]{index=5}
+4. Online driver authentication 
 
 ---
 
@@ -85,7 +80,7 @@ The evaluation was conducted using real-world experiments involving:
 - Different sitting postures
 - Different clothing conditions
 
-This resulted in a large-scale pressure dataset collected under realistic driving conditions. :contentReference[oaicite:6]{index=6}
+This resulted in a large-scale pressure dataset collected under realistic driving conditions.
 
 ---
 
@@ -126,7 +121,7 @@ Random Forest achieved the best overall performance and was selected as the prim
 | Seat | **94.04%** | **94.00%** | **1.34 s** |
 | Belt + Seat | **96.08%** | **96.00%** | **2.32 s** |
 
-The experimental results demonstrate that pressure-based authentication provides both fast and highly accurate driver identification while preserving user privacy. :contentReference[oaicite:8]{index=8}
+The experimental results demonstrate that pressure-based authentication provides both fast and highly accurate driver identification while preserving user privacy. 
 
 ---
 
@@ -136,7 +131,7 @@ The experimental results demonstrate that pressure-based authentication provides
 <img src="figures/time_results.png" width="700">
 </p>
 
-Random Forest achieved superior authentication accuracy, while Logistic Regression required less computational time. The proposed system provides an effective trade-off between security, speed, and accuracy. :contentReference[oaicite:9]{index=9}
+Random Forest achieved superior authentication accuracy, while Logistic Regression required less computational time. The proposed system provides an effective trade-off between security, speed, and accuracy. 
 
 ---
 
