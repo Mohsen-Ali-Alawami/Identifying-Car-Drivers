@@ -45,7 +45,7 @@ This work proposes a lightweight and privacy-preserving driver authentication sy
 <img src="figures/system_overview.png" width="750">
 </p>
 
-The proposed system continuously collects pressure measurements from sensors embedded inside the driver's seat and seat belt. The collected data are processed by trained machine learning models to authenticate the driver's identity. :contentReference[oaicite:4]{index=4}
+The proposed system continuously collects pressure measurements from sensors embedded inside the driver's seat and seat belt. The collected data are processed by trained machine learning models to authenticate the driver's identity.
 
 ---
 
@@ -91,7 +91,7 @@ The following classifiers were evaluated:
 - Random Forest
 - Logistic Regression
 
-Random Forest achieved the best overall performance and was selected as the primary authentication model. :contentReference[oaicite:7]{index=7}
+Random Forest achieved the best overall performance and was selected as the primary authentication model.
 
 ---
 
@@ -149,19 +149,6 @@ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-
-Train the model
-
-```bash
-python train.py
-```
-
-Evaluate
-
-```bash
-python test.py
-```
-
 ---
 
 ## 📖 Citation
@@ -192,12 +179,11 @@ Hankuk University of Foreign Studies (HUFS), South Korea
 
 **Mohsen Ali Alawami**
 
-📧 Email: mohsencomm@gmail.com
+📧 Email: mohsencomm@gmail.com 📧 Email: mohsencomm@hufs.ac.kr
 
-- Google Scholar
-- ResearchGate
-- GitHub
-- LinkedIn
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-blue?logo=googlescholar)](https://scholar.google.com.eg/citations?user=eVRrK_YAAAAJ&hl=en)
+[![HUFS](https://img.shields.io/badge/HUFS-Faculty-red)](https://computer.hufs.ac.kr/computer/11454/subview.do)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com)
 
 ---
 
