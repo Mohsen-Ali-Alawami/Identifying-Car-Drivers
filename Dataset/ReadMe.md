@@ -144,17 +144,12 @@ where
 If you use this dataset, please cite our paper.
 
 ```bibtex
-@article{ALAWAMI20252361,
-title = {DriveMe: Towards Lightweight and Practical Driver Authentication System Using Single-Sensor Pressure Data},
-journal = {CMES - Computer Modeling in Engineering and Sciences},
-volume = {143},
-number = {2},
-pages = {2361-2389},
-year = {2025},
-issn = {1526-1492},
-doi = {https://doi.org/10.32604/cmes.2025.063819},
-url = {https://www.sciencedirect.com/science/article/pii/S1526149225001213},
-author = {Mohsen Ali Alawami and Dahyun Jung and Yewon Park and Yoonseo Ku and Gyeonghwan Choi and Ki-Woong Park}
+@inproceedings{ea2023car,
+  title={The car is safe: A fast and accurate pressure-based authentication system for identifying car drivers},
+  author={ea Alawami, MA},
+  booktitle={The 7th International Conference on Mobile Internet Security (MobiSec 2023)},
+  number={56},
+  year={2023}
 }
 ```
 
