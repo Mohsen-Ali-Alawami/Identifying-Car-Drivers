@@ -128,7 +128,7 @@ The experimental results demonstrate that pressure-based authentication provides
 ## ⏱ Training and Testing Time
 
 <p align="center">
-<img src="figures/time_results.png" width="700">
+<img src="figures/timING_results.png" width="700">
 </p>
 
 Random Forest achieved superior authentication accuracy, while Logistic Regression required less computational time. The proposed system provides an effective trade-off between security, speed, and accuracy. 
